@@ -1,0 +1,3 @@
+import "./Style.styl";
+
+document.write("<h1>Hello, World!</h1>");

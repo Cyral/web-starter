@@ -1,0 +1,7 @@
+version: "3.2"
+services:
+  frontend:
+    ports:
+    - '5002:5002'
+    volumes:
+    - ./:/usr/src/app/:rw

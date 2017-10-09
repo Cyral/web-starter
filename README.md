@@ -1,2 +1,10 @@
 # web-starter
-Starter template for projects using TypeScript, Webpack, Docker
+Starter kit for web applications with:
+
+- Node.JS
+- TypeScript
+- Preact
+- Stylus
+- Webpack
+- Docker
+- NGINX

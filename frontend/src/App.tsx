@@ -1,5 +1,6 @@
 import {h, render, Component} from 'preact';
 import Container from "./Container";
+import "./Style.styl";
 
 const root = document.getElementById('app');
 

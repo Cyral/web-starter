@@ -1,12 +1,25 @@
 version: "3.2"
 services:
+  nginx:
+    build:
+      context: ./nginx
+    volumes:
+    - ./nginx/sites:/etc/nginx/conf.d/
+    ports:
+    - '5001:80'
   frontend:
     build:
       context: ./frontend
-    ports:
-    - '5002:3000'
     volumes:
     - ./frontend:/home/app/frontend
-    - /home/app/frontend/node_modules
+    # - /home/app/frontend/node_modules
+    environment:
+      NODE_ENV: dev
+  backend:
+    build:
+      context: ./backend
+    volumes:
+    - ./backend:/home/app/backend
+    # - /home/app/frontend/node_modules
     environment:
       NODE_ENV: dev

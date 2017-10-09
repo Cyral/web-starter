@@ -8,6 +8,8 @@
     "build.prod": "./node_modules/.bin/webpack --env=prod "
   },
   "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "preact": "^8.2.5",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.3"
   },

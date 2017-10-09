@@ -1,17 +1,13 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
+    "sourceMap": false,
     "module": "commonjs",
-    "target": "es2015",
-    "jsx": "react",
-    "jsxFactory": "h",
     "allowJs": true
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
-    "src/*.ts",
-    "src/*.tsx"
+    "src/*.ts"
   ]
 }

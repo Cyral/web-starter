@@ -5,7 +5,7 @@ module.exports = {
     hot: true,
     inline: true,
     watchOptions: {
-      poll: true
+      poll: 3000
     }
   },
   devtool: 'source-map'
